@@ -1,3 +1,4 @@
+[![Angular CI](https://github.com/helisfreitas/my-delivery-frontend-angular/actions/workflows/node.js.yml/badge.svg)](https://github.com/helisfreitas/my-delivery-frontend-angular/actions/workflows/node.js.yml)
 # my-deliveryAngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
