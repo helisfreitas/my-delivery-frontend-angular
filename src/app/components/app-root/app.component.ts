@@ -14,5 +14,5 @@ import { AppContentComponent } from '../app-content/app-content.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'my-delivery App';
+  title = 'my-delivery-angular-app';
 }
