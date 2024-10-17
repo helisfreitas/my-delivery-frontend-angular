@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   standalone: true,
   imports: [],
-  templateUrl: './header.component.html'
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.scss'
 })
 export class AppHeaderComponent {
   title = 'my-delivery App';
