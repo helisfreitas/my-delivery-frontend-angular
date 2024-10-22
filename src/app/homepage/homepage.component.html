@@ -1,0 +1,48 @@
+<mat-toolbar color="primary" class="mat-elevation-z4">
+  <img src="favicon.ico" alt="Restaurant" class="app-logo"/>
+  <span>My Delivery App</span>
+  <div>
+    <button mat-icon-button color="primary" routerLink="/login">
+      <mat-icon>login</mat-icon>
+    </button>
+    <button mat-icon-button color="accent" routerLink="/register" class="ml-3">
+      <mat-icon>app_registration</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>
+<header>
+  <h1 class="mat-h1">Welcome to My Delivery App</h1>
+  <p>Your one-stop solution to manage your restaurant efficiently!</p>
+</header>
+<main>
+
+  <div class="get-started-container">
+    <div class="cta-text">
+      <h2>Get Started Today!</h2>
+      <p>Join thousands of restaurant owners who trust us to simplify their business operations.</p>
+    </div>
+    <div class="cta-button">
+      <button mat-raised-button color="primary" routerLink="/register">Start Now</button>
+    </div>
+  </div>
+  
+  <div class="container">
+    <aside>
+      <img src="assets/img/mydelivery.png" alt="Restaurant" class="restaurant-image" />
+    </aside>
+    <aside>
+      <h2>Why Choose Us?</h2>
+      <p>
+        We offer an intuitive dashboard that makes restaurant management a breeze.<br />
+        From menu updates to order tracking, we’ve got you covered.
+      </p>
+      <br />
+      <ul>
+        <li><mat-icon color="primary">check_circle</mat-icon> Easy Menu Management</li>
+        <li><mat-icon color="primary">check_circle</mat-icon> Real-time Order Tracking</li>
+        <li><mat-icon color="primary">check_circle</mat-icon> Flexible Business Hours</li>
+      </ul>
+    </aside>
+  </div>
+
+</main>

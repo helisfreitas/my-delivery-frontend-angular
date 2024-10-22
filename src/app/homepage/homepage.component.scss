@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  aside {
+    width: 48%;
+  }
+  
+  .restaurant-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+   
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    padding-left: 20px;
+    list-style: none;
+  
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+  
+      mat-icon {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  button {
+    margin-top: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+      
+    .mat-h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+ // Styles for the app toolbar
+mat-toolbar {
+    border-bottom: 1px solid rgb(220, 220, 220);   
+    top: 0px;
+    padding: 16px 0px;
+    position: sticky;
+    background-color: #fff;
+  
+    // Logo styling
+    .app-logo {
+      height: 40px; // Set the height for the logo
+      margin-right: 16px; // Space between logo and title
+      vertical-align: middle; // Align logo vertically
+    }
+  
+    // Title styling
+    span {
+      font-size: 1.5rem; // Title font size
+      font-weight: 500; // Title font weight
+      margin-right: auto; // Push the buttons to the right
+    }
+  
+    // Button styling
+    button {
+      margin-left: 8px; // Space between buttons
+    } 
+
+  }  
+
+  .get-started-container {
+    background-color: #e3f2fd; // Light blue background for emphasis
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); // Soft shadow for depth
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    gap: 20px;
+  
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+  
+    p {
+      font-size: 1.15rem;
+      color: #555; // Soft text color for better readability
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+  
+    .cta-button {
+      display: flex;
+      justify-content: flex-end;  
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .get-started-container {
+      flex-direction: column; // Stack elements vertically on small screens
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    header{
+        .mat-h1 {
+            font-size: 2.5rem;
+        }
+    }
+
+    mat-toolbar {
+        .app-logo {
+            display: none;
+        }
+    }
+
+  }
+  
